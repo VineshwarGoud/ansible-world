@@ -3,6 +3,7 @@ sudo hostnamectl set-hostname <hostname>
 Install ansible on contoller:
 STEP 0-
 sudo su
+cd
 sudo apt update
 sudo apt install software-properties-common
 sudo apt-add-repository ppa:ansible/ansible
